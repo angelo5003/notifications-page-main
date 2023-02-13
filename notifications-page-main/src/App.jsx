@@ -1,10 +1,12 @@
 import "./App.css";
 import Header from "./components/Header/Header";
+import Notifications from "./components/Notifications/Notifications";
 
 function App() {
   return (
-    <div>
+    <div className="border-container">
       <Header />
+      <Notifications />
     </div>
   );
 }
