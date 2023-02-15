@@ -38,7 +38,11 @@
 }
 
 .border-container {
-  border: 1px solid red;
+  border: 1px solid hsl(211, 68%, 94%);
+  border-radius: 15px;
   width: 850px;
   margin: 0 auto;
+  position: relative;
+  top: 50px;
+  box-shadow: 10px 10px 10px rgb(0 0 0 / 25%);
 }
