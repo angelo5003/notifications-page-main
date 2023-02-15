@@ -1,0 +1,32 @@
+.notifications-outer-container {
+}
+
+.notification-img {
+  height: 70px;
+}
+
+.user-name {
+  display: flex;
+  justify-content: center;
+}
+
+.notification-container {
+  display: grid;
+  justify-items: center;
+  grid-auto-flow: column;
+  grid-auto-columns: 1fr;
+}
+
+.message-box {
+  width: 450px;
+  margin: 0;
+}
+
+.text-container {
+  padding-left: 20px;
+  width: 470px;
+}
+
+/* .followed-you-text {
+  text-align: left;
+} */
