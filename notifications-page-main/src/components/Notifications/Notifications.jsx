@@ -19,6 +19,9 @@ const Notifications = () => {
             <div className="text-container">
               <p className="followed-you-text">
                 {data.text}{" "}
+                {data.postTitle ? (
+                  <span id="postTitle">{data.postTitle}</span>
+                ) : null}
                 {data.club ? <span id="club-title">{data.club}</span> : null}
               </p>
               {data.message ? (

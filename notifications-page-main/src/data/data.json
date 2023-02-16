@@ -3,19 +3,21 @@
     "id": 1,
     "name": "Mark Webber",
     "image": "./assets/images/avatar-mark-webber.webp",
-    "text": "reacted to your recent post My first tournament today!",
+    "text": "reacted to your recent post",
+    "postTitle": "My first tournament today!",
     "club": "",
     "time": "1 min ago",
-    "status": "active"
+    "active": true
   },
   {
     "id": 2,
     "name": " Angela Gray",
     "image": "./assets/images/avatar-angela-gray.webp",
     "text": "followed you",
+    "postTitle": "",
     "club": "",
     "time": " 5m ago",
-    "status": "active"
+    "active": true
   },
 
   {
@@ -23,9 +25,10 @@
     "name": "Jacob Thompson",
     "image": "./assets/images/avatar-jacob-thompson.webp",
     "text": "has joined your group",
+    "postTitle": "",
     "club": "Chess Club",
     "time": " 1 day ago",
-    "status": "active"
+    "active": true
   },
   {
     "id": 4,
@@ -48,7 +51,8 @@
     "id": 6,
     "name": "Nathan Peterson",
     "image": "./assets/images/avatar-nathan-peterson.webp",
-    "text": "reacted to your recent post 5 end-game strategies to increase your win rate",
+    "text": "reacted to your recent post ",
+    "postTitle": "5 end-game strategies to increase your win rate",
     "time": "   2 weeks ago"
   },
   {
