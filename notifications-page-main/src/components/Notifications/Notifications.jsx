@@ -17,8 +17,13 @@ const Notifications = () => {
               <strong>{data.name}</strong>
             </p>
             <div className="text-container">
-              <p className="followed-you-text">{data.text}</p>
-              <p className="message-box">{data.message}</p>
+              <p className="followed-you-text">
+                {data.text}{" "}
+                {data.club ? <span id="club-title">{data.club}</span> : null}
+              </p>
+              {data.message ? (
+                <p className="message-box">{data.message}</p>
+              ) : null}
               <p>{data.time}</p>
             </div>
           </article>
