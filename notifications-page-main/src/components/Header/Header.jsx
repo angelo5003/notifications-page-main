@@ -8,7 +8,6 @@ const Header = () => {
         <h1>
           Notifications <span id="number-notification">3</span>
         </h1>
-
         <button>Mark all read</button>
       </nav>
     </header>
