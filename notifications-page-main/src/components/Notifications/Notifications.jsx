@@ -1,16 +1,27 @@
-import React from "react";
+import React, { useState } from "react";
+import Header from "../Header/Header";
 
 import "./NotificationsStyles.css";
 
 const Notifications = ({ newData, setNewData }) => {
+  const [isActive, setIsActive] = useState(true);
+  const toggleClass = () => {
+    setIsActive(!isActive);
+
+    console.log(`btn is clicked`);
+  };
+
   return (
     <ul>
+      <Header toggleClass={toggleClass} newData={newData} />
       {newData &&
         newData.map((data) => {
           return (
             <li
               key={data.id}
-              className={data.active ? "active" : "notification-container"}
+              className={`${
+                data.active && isActive ? "active" : "notification-container"
+              }`}
             >
               <img
                 src={data.image}
