@@ -1,7 +1,7 @@
 import React from "react";
 import "./HeaderStyle.css";
 
-const Header = ({ toggleClass, newData, isActive, numberOfActiveMsg }) => {
+const Header = ({ toggleClass, newData }) => {
   return (
     <header>
       <nav className="header-container">
