@@ -30,6 +30,7 @@
     "time": " 1 day ago",
     "active": true
   },
+
   {
     "id": 4,
     "name": "Rizky Hasanuddin",
@@ -37,7 +38,8 @@
     "text": "sent you a private message",
     "club": "",
     "message": " Hello thanks for setting up the Chess Club.\nIve been a member for a few weeks now and\nIm already having lots of fun and improving my game.",
-    "time": " 5 days ago"
+    "time": " 5 days ago",
+    "active": true
   },
   {
     "id": 5,

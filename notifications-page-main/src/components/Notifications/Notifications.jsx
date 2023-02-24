@@ -5,6 +5,10 @@ import "./NotificationsStyles.css";
 
 const Notifications = ({ newData, setNewData }) => {
   const [isActive, setIsActive] = useState(true);
+
+  const unreadMsg = newData?.filter((msg) => msg.active) || []; // if there is newData filter trough the array else if there is no newData give an empty array
+  const unreadCount = unreadMsg.length; // show unread messages in the entire length of the array.
+
   const toggleClass = () => {
     setIsActive(!isActive);
 
@@ -13,7 +17,12 @@ const Notifications = ({ newData, setNewData }) => {
 
   return (
     <ul>
-      <Header toggleClass={toggleClass} newData={newData} />
+      <Header
+        toggleClass={toggleClass}
+        newData={newData}
+        isActive={isActive}
+        unreadCount={unreadCount}
+      />
       {newData &&
         newData.map((data) => {
           return (
